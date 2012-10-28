@@ -1,0 +1,10 @@
+body { padding-top: 60px; /* 60px to make the container go all the way
+to the bottom of the topbar */ }
+
+.pull-right {
+  margin-top:8px;
+  float:right;
+}
+.pull-right p a {
+  margin-left:20px;
+}
