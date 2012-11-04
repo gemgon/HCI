@@ -10,3 +10,26 @@ to the bottom of the topbar */ }
 .pull-right p a {
   margin-left:20px;
 }
+.red {
+  color: red;
+}
+.right {
+  text-align: right;
+}
+.small {
+  font-size: 12px;
+}
+textarea {
+  width: 306px;
+}
+.article {
+  margin-bottom: 30px;
+  border-bottom:1px solid grey;
+}
+p.name {
+  text-transform: uppercase;
+  color: #278900;
+}
+label.small {
+  font-size: 12px;
+}

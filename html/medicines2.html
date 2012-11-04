@@ -36,19 +36,13 @@
         <h1>
           Dashboard of Joe Doe
         </h1>
-        <p>
-          To start you have to configure your settings account, then you can enter
-          the information about your kids that you have to send to their schools,
-          or show the information than the schools have sent about the time your
-          kids are in the school.
-        </p>
       </div>
     </div>  
     <div class="container">      
      <div class="navbar">
        <div class="navbar-inner">
            <ul class="nav">
-             <li>
+             <li class="active">
                <a href="./enter1.html">
                  Enter information
                </a>
@@ -58,8 +52,8 @@
                  Information recived
                </a>
              </li>
-             <li class="active">
-               <a href="./setting.html">
+             <li>
+               <a href="./Kid_form_filled.html">
                  Settings
                </a>
              </li>
@@ -68,8 +62,50 @@
       </div>
     </div>
     <div class="container">
-      <a href="Kid_form.html"><i class="icon-plus"></i>Add Kid</a>
-      <p class="red small">To add a kid you need a school code (<b>AAAA-00000-000000</b>)</p> 
+     <ul class="nav nav-pills">
+       <li><a href="#">Meals</a></li>
+       <li><a href="./night3.html">Night sleep</a></li>
+       <li class="active"><a href="./medicines1.html">Medicines</a></li>            
+       <li><a href="./comments1.html">General Comments</a></li>
+     </ul>
+     <div class="Medicines">
+       <h6 class="red">Fill in only with the medication the kid has to take at school time</h6>
+       <h3>Alice</h3>
+       <form class="form-horizontal">
+         <div class="control-group">
+           <label class="control-label" for="inputEmail">Name</label>
+           <div class="controls">
+            <input type="text" placeholder="medicine name">
+           </div>
+         </div>
+         <div class="control-group">
+           <label class="control-label" for="inputEmail">Dosis</label>
+           <div class="controls">
+            <input type="text" placeholder="0,00 ml">
+           </div>
+         </div>
+         <div class="control-group">
+           <label class="control-label" for="inputEmail">Time</label>
+           <div class="controls">
+            <input type="text" placeholder="00:00">
+           </div>
+         </div><div class="btn-wrapper">
+           <a href="./medicines2.html" class="btn">clear</a>
+           <a href="./medicines3.html" class="btn btn-info">save</a>         
+         </div>
+       </form>
+       <br>
+       <div class="span6">
+         <table class="table">
+          <tr>
+            <td><b>Borj</b></td>
+            <td>None</td>        
+            <td></td>
+            <td><a href="#" class="btn">Edit</a></td>
+          </tr>
+         </table>
+       </div>
+     </div>      
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">

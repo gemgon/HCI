@@ -36,19 +36,13 @@
         <h1>
           Dashboard of Joe Doe
         </h1>
-        <p>
-          To start you have to configure your settings account, then you can enter
-          the information about your kids that you have to send to their schools,
-          or show the information than the schools have sent about the time your
-          kids are in the school.
-        </p>
       </div>
     </div>  
     <div class="container">      
      <div class="navbar">
        <div class="navbar-inner">
            <ul class="nav">
-             <li>
+             <li class="active">
                <a href="./enter1.html">
                  Enter information
                </a>
@@ -58,7 +52,7 @@
                  Information recived
                </a>
              </li>
-             <li class="active">
+             <li>
                <a href="./setting.html">
                  Settings
                </a>
@@ -68,8 +62,28 @@
       </div>
     </div>
     <div class="container">
-      <a href="Kid_form.html"><i class="icon-plus"></i>Add Kid</a>
-      <p class="red small">To add a kid you need a school code (<b>AAAA-00000-000000</b>)</p> 
+     <ul class="nav nav-pills">
+       <li><a href="./enter3.html">Meals</a></li>
+       <li><a href="./night3.html">Night sleep</a></li>
+       <li><a href="./medicines1.html">Medicines</a></li>            
+       <li class="active"><a href="./comments1.html">General Comments</a></li>
+     </ul>
+     <div class="comments">
+       <div class="span6">
+         <table class="table">
+          <tr>
+            <td><b>Alice</b></td>
+            <td>None</td>
+            <td><a href="#" class="btn">Edit</a></td>
+          </tr>
+          <tr>
+            <td><b>Borj</b></td>
+            <td>Tomorrow is his birthday</td>
+            <td><a href="#" class="btn">Edit</a></td>
+          </tr>
+         </table>
+       </div>
+     </div>      
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">

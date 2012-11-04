@@ -24,7 +24,7 @@
           </ul>
           
           <div id="" class="pull-right">
-            <p>Hello Joe Doe<a href="./logout.html">Log out</a></p>         
+            <p>Hello Nursery The almonds<a href="./logout.html">Log out</a></p>         
           </div>
           
         </div>
@@ -34,14 +34,8 @@
     <div class="container">
       <div>
         <h1>
-          Dashboard of Joe Doe
+          Dashboard of Nursery The almonds
         </h1>
-        <p>
-          To start you have to configure your settings account, then you can enter
-          the information about your kids that you have to send to their schools,
-          or show the information than the schools have sent about the time your
-          kids are in the school.
-        </p>
       </div>
     </div>  
     <div class="container">      
@@ -49,17 +43,17 @@
        <div class="navbar-inner">
            <ul class="nav">
              <li>
-               <a href="./enter1.html">
+               <a href="./enter3_s.html">
                  Enter information
                </a>
              </li>
-             <li>
-               <a href="./show.html">
+             <li class="active">
+               <a href="./show_s.html">
                  Information recived
                </a>
              </li>
-             <li class="active">
-               <a href="./setting.html">
+             <li>
+               <a href="./setting_s.html">
                  Settings
                </a>
              </li>
@@ -68,10 +62,34 @@
       </div>
     </div>
     <div class="container">
-      <a href="Kid_form.html"><i class="icon-plus"></i>Add Kid</a>
-      <p class="red small">To add a kid you need a school code (<b>AAAA-00000-000000</b>)</p> 
+      <form class="form-search pull-right">
+        <input type="text" class="input-medium search-query">
+        <button type="submit" class="btn">Search</button>
+      </form>
+      <form class="form">
+        <select>
+          <option>Classroom name</option>
+          <option>Classroom 1 (Bears)</option>
+          <option>Classroom 2 (Lions)</option>
+          <option>Classroom 3 (Monkeys)</option>
+        </select>
+        <select>
+          <option>Date</option>
+          <option>10/31/2012</option>
+          <option>10/30/2012</option>
+          <option>10/29/2012</option>
+        </select>
+      </form>
+      <div class="article">
+        <h2>Wendsday, 10/31/2012</h2>
+        <h3>Classroom 1 (Bears)</h3>
+        <img src="../bootstrap/img/table.png" alt="table of kid's data">
+        <h3>Classroom 2 (Lions)</h3>
+        <img src="../bootstrap/img/table.png" alt="table of kid's data">
+        <h3>Classroom 3 (Monkeys)</h3>
+        <img src="../bootstrap/img/table.png" alt="table of kid's data">
+      </div>
     </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
     </script>
     <script src="assets/js/bootstrap.js">
