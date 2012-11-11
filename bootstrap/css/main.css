@@ -2,13 +2,20 @@ body { padding-top: 60px; /* 60px to make the container go all the way
 to the bottom of the topbar */ }
 
 .pull-right {
-  float:right;
+  float: right;
 }
 .pull-right p {
-  margin-top:8px;
+  margin-top: 8px;
 }
 .pull-right p a {
-  margin-left:20px;
+  margin-left: 20px;
+}
+a.pull-right {
+  padding: 10px;
+  background-color: #febbbb;
+}
+a.pull-right:hover {
+  background-color: #fc8e8e;
 }
 .red {
   color: red;
@@ -24,7 +31,7 @@ textarea {
 }
 .article {
   margin-bottom: 30px;
-  border-bottom:1px solid grey;
+  border-bottom: 1px solid grey;
 }
 p.name {
   text-transform: uppercase;
@@ -32,4 +39,17 @@ p.name {
 }
 label.small {
   font-size: 12px;
+}
+ol li {
+  margin-bottom: 12px;
+}
+ 
+.nav-tabs > .active > a > [class^="icon-"], 
+.nav-tabs > .active > a > [class*=" icon-"] {
+background-image: url("../img/glyphicons-halflings.png");
+}
+span.abs {
+  position: absolute;
+  top: 190px;
+  left: 956px;
 }
